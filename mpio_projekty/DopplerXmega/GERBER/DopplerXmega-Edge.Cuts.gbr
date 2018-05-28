@@ -1,0 +1,24 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.0.0-rc2-dev-311-g1dd4af297)*
+G04 #@! TF.CreationDate,2018-04-09T10:09:18+02:00*
+G04 #@! TF.ProjectId,DopplerXmega,446F70706C6572586D6567612E6B6963,rev?*
+G04 #@! TF.SameCoordinates,PX6d01460PY3dc4fd0*
+G04 #@! TF.FileFunction,Profile,NP*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (5.0.0-rc2-dev-311-g1dd4af297)) date 04/09/18 10:09:18*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,0.150000*%
+G04 APERTURE END LIST*
+D10*
+X0Y-64000000D02*
+X0Y0D01*
+X86000000Y-64000000D02*
+X0Y-64000000D01*
+X86000000Y0D02*
+X86000000Y-64000000D01*
+X0Y0D02*
+X86000000Y0D01*
+M02*

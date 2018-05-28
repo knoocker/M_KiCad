@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name DopplerXmega-rescue)(type Legacy)(uri ${KIPRJMOD}/DopplerXmega-rescue.lib)(options "")(descr ""))
+  (lib (name mpio_lib)(type Legacy)(uri C:/Git/Marek/kicad/mpio_lib/mpio_lib.lib)(options "")(descr ""))
+  (lib (name ESD_Protection)(type Legacy)(uri C:/Git/Marek/kicad/mpio_lib/ESD_Protection.lib)(options "")(descr ""))
+)

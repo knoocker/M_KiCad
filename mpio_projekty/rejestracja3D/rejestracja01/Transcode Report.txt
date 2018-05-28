@@ -1,0 +1,40 @@
+
+
+   ---- Transcoding 'C:\Git\Pointer3D_Marek\kicad\mpio_projekty\rejestracja3D\rejestracja01\rejestracja01-F.Cu.gbr' ----   Mon Jan 15 15:20:23 2018
+
+D12   --> D100
+D13   --> D101
+D14   --> D102
+D15   --> D103
+D16   --> D104
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Git\Pointer3D_Marek\kicad\mpio_projekty\rejestracja3D\rejestracja01\rejestracja01-F.Cu.gbr' ----   Mon Jan 15 15:30:25 2018
+
+D12   --> D100
+D13   --> D101
+D14   --> D102
+D15   --> D103
+D16   --> D104
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Git\Pointer3D_Marek\kicad\mpio_projekty\rejestracja3D\rejestracja01\rejestracja01-F.Cu.gbr' ----   Mon Jan 15 15:32:18 2018
+
+D12   --> D105
+D13   --> D106
+D14   --> D107
+D15   --> D108
+D16   --> D109
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Git\Pointer3D_Marek\kicad\mpio_projekty\rejestracja3D\rejestracja01\rejestracja01-F.Cu.gbr' ----   Mon Jan 15 15:33:47 2018
+
+D12   --> D100
+D13   --> D101
+D14   --> D102
+D15   --> D103
+D16   --> D104
+-----------------------------------------------------------------

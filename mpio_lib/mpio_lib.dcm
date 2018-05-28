@@ -1,0 +1,60 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 78L05
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78lxx.pdf
+$ENDCMP
+#
+$CMP ATXMEGA16A4-A-VFBGA
+D TQFP44, 16k Flash, 4k Boot, 2k SRAM, 1k EEPROM, JTAG
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://www.atmel.com/Images/Atmel-8069-8-and-16-bit-AVR-AMEGA-A4-Microcontrollers_Datasheet.pdf
+$ENDCMP
+#
+$CMP AVR-ISP-6
+D Standard IDC6 Male Connector, ATMEL ISP 6pin
+K IDC6 Male Connector
+$ENDCMP
+#
+$CMP AVR-PDI-6
+D Standard IDC6 Male Connector, ATMEL PDI 6pin
+K IDC6 Male Connector
+$ENDCMP
+#
+$CMP IRLTS2242
+D IRLTS2242PbF
+K TSOP-6
+F https://www.infineon.com/dgdl/irlts2242pbf.pdf?fileId=5546d462533600a401535671e9a12718
+$ENDCMP
+#
+$CMP L78L33ABD
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LM7805
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LM7812
+D Linear Regulator +12V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP OPTO-TRANSISTOR
+D Generic Optocoupler with Base Connected
+K NPN DC Optocoupler Base Connected
+$ENDCMP
+#
+$CMP TRANSOPTOR
+D Transoptor
+K transoptor
+F pulsometr/tcrt1000.pdf
+$ENDCMP
+#
+#End Doc Library

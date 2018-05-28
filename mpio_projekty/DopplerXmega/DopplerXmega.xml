@@ -1,0 +1,1215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Git\Marek\kicad\mpio_projekty\DopplerXmega\DopplerXmega.sch</source>
+    <date>09/04/2018 08:37:08</date>
+    <tool>Eeschema (5.0.0-rc2-dev-311-g1dd4af297)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>DopplerXmega.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>ATXMEGA256A3BU-AU</value>
+      <footprint>Housings_QFP:TQFP-64_14x14mm_Pitch0.8mm</footprint>
+      <libsource lib="DopplerXmega-rescue" part="ATXMEGA256A3BU-AU"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB4B5FA</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>PRTR5V0U2X</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-143</footprint>
+      <libsource lib="DopplerXmega-rescue" part="PRTR5V0U2X"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB4CD07</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>USB_B</value>
+      <footprint>mpio:USB_Micro-B</footprint>
+      <libsource lib="DopplerXmega-rescue" part="USB_B"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB4D0B3</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>N.M.</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB4D994</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LD1117S33TR</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-223-3_TabPin2</footprint>
+      <libsource lib="DopplerXmega-rescue" part="LD1117S33TR_SOT223"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB4ECD6</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB4EEC0</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:CP_Elec_5x5.3</footprint>
+      <libsource lib="DopplerXmega-rescue" part="CP_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB4EF1E</tstamp>
+    </comp>
+    <comp ref="Y2">
+      <value>16.00M-SMDXT224 </value>
+      <footprint>Crystals:Crystal_SMD_2520-4pin_2.5x2.0mm</footprint>
+      <libsource lib="DopplerXmega-rescue" part="Crystal_GND24"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5189D</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>18pF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB522D7</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>18pF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB52327</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value> BLM18BD221SN1D</value>
+      <footprint>Inductors_SMD:L_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="Ferrite_Bead_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB50CBD</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB50E1A</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB51A2D</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB51AE2</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB51B22</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB51B63</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB51BA5</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TCXO</value>
+      <footprint>mpio:crystal_3.2x2.5</footprint>
+      <libsource lib="DopplerXmega-rescue" part="TCXO"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB538E3</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB55C9D</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>PCA-6G-20-HL-3</value>
+      <footprint>mpio:PCA-6G-20-HL-3</footprint>
+      <libsource lib="DopplerXmega-rescue" part="Conn_01x20"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB89EA9</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB8DC87</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB8E257</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB8ED2F</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>mpio:DEM_128064P_SBH-PW-N</footprint>
+      <libsource lib="DopplerXmega-rescue" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB8FF3A</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>110</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABA7F2D</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>TACTM-34N-F</value>
+      <footprint>mpio:SW_3x6_1,6x7,4</footprint>
+      <libsource lib="DopplerXmega-rescue" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABCCE32</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>100K</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABCD65F</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>TACTM-34N-F</value>
+      <footprint>mpio:SW_3x6_1,6x7,4</footprint>
+      <libsource lib="DopplerXmega-rescue" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABCE875</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>100K</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABCE87B</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>TACTM-34N-F</value>
+      <footprint>mpio:SW_3x6_1,6x7,4</footprint>
+      <libsource lib="DopplerXmega-rescue" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABCEA16</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>100K</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABCEA1C</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>TACTM-34N-F</value>
+      <footprint>mpio:SW_3x6_1,6x7,4</footprint>
+      <libsource lib="DopplerXmega-rescue" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABD3D04</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>100K</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABD3D0A</tstamp>
+    </comp>
+    <comp ref="PDI1">
+      <value>AVR-PDI-6</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm</footprint>
+      <libsource lib="DopplerXmega-rescue" part="AVR-PDI-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC35AA1</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N7002</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="DopplerXmega-rescue" part="2N7002"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC3C3DA</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC3E073</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>MC306</value>
+      <footprint>Crystals:Crystal_SMD_SeikoEpson_MC306-4pin_8.0x3.2mm</footprint>
+      <libsource lib="DopplerXmega-rescue" part="Crystal_GND23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC4644A</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10pF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC48DD3</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10pF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC48DD9</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>CR1220</value>
+      <footprint>mpio:Keystone_3000_1x12mm-CoinCell</footprint>
+      <libsource lib="DopplerXmega-rescue" part="Battery_Cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC4D88E</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_02x08</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x08_Pitch2.54mm</footprint>
+      <libsource lib="DopplerXmega-rescue" part="Conn_02x08_Odd_Even"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC58691</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_02x08</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x08_Pitch2.54mm</footprint>
+      <libsource lib="DopplerXmega-rescue" part="Conn_02x08_Odd_Even"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC6768F</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_02x08</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x08_Pitch2.54mm</footprint>
+      <libsource lib="DopplerXmega-rescue" part="Conn_02x08_Odd_Even"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC68164</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_02x08</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x08_Pitch2.54mm</footprint>
+      <libsource lib="DopplerXmega-rescue" part="Conn_02x08_Odd_Even"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC68CFA</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="DopplerXmega-rescue" part="Conn_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC6AD42</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC81662</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC81A5C</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>RED</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC47AE5</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>22K</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC48F0B</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>RED</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC4C460</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>22K</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC4C466</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>GREEN</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC4D69D</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>6K8</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC4D6A3</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>BLUE</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC4D742</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>68K</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="DopplerXmega-rescue" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC4D748</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="DopplerXmega-rescue" part="2N7002">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7002</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DopplerXmega-rescue" part="ATXMEGA256A3BU-AU">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATXMEGA256A3BU-AU</field>
+        <field name="Footprint">TQFP64</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AC3/ADC11/ADC3/PA3" type="BiDi"/>
+        <pin num="2" name="AC4/ADC12/ADC4/PA4" type="BiDi"/>
+        <pin num="3" name="AC5/ADC13/ADC5/PA5" type="BiDi"/>
+        <pin num="4" name="AC1OUT/AC6/ADC14/ADC6/PA6" type="BiDi"/>
+        <pin num="5" name="AC0OUT/AC7/ADC15/ADC7/PA7" type="BiDi"/>
+        <pin num="6" name="AREF/AC0/ADC0/ADC8/PB0" type="BiDi"/>
+        <pin num="7" name="AC1/ADC1/ADC9/PB1" type="BiDi"/>
+        <pin num="8" name="DAC0/AC2/ADC2/ADC10/PB2" type="BiDi"/>
+        <pin num="9" name="DAC1/AC3/ADC3/ADC11/PB3" type="BiDi"/>
+        <pin num="10" name="TMS/AC4/ADC4/ADC12/PB4" type="BiDi"/>
+        <pin num="11" name="TDI/AC5/ADC5/ADC13/PB5" type="BiDi"/>
+        <pin num="12" name="TCK/AC1OUT/AC6/ADC6/ADC14/PB6" type="BiDi"/>
+        <pin num="13" name="TDO/AC0OUT/AC7/ADC7/ADC15/PB7" type="BiDi"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="VCC" type="power_in"/>
+        <pin num="16" name="SDA/~OC0ALS~/OC0A/PC0" type="BiDi"/>
+        <pin num="17" name="SCL/XCK0/OC0AHS/OC0B/PC1" type="BiDi"/>
+        <pin num="18" name="SDAOUT/RXD0/~OC0BLS~/OC0C/PC2" type="BiDi"/>
+        <pin num="19" name="SCLOUT/TXD0/OC0BHS/OC0D/PC3" type="BiDi"/>
+        <pin num="20" name="~SS~/~OC0CLS~/OC1A/PC4" type="BiDi"/>
+        <pin num="21" name="MOSI/XCK1/OC0CHS/OC1B/PC5" type="BiDi"/>
+        <pin num="22" name="MISO/RXD1/~OC0DLS~/PC6" type="BiDi"/>
+        <pin num="23" name="EVOUT/CLKP/SCK/TXD1/OC0DHS/PC7" type="BiDi"/>
+        <pin num="24" name="GND" type="power_in"/>
+        <pin num="25" name="VCC" type="power_in"/>
+        <pin num="26" name="OC0A/PD0" type="BiDi"/>
+        <pin num="27" name="XCK0/OC0B/PD1" type="BiDi"/>
+        <pin num="28" name="RXD0/OC0C/PD2" type="BiDi"/>
+        <pin num="29" name="TXD0/OC0D/PD3" type="BiDi"/>
+        <pin num="30" name="~SS~/OC1A/PD4" type="BiDi"/>
+        <pin num="31" name="MOSI/XCK1/OC1B/PD5" type="BiDi"/>
+        <pin num="32" name="MISO/RXD1/D-/PD6" type="BiDi"/>
+        <pin num="33" name="EVOUT/CLKP/SCK/TXD1/D+/PD7" type="BiDi"/>
+        <pin num="34" name="GND" type="power_in"/>
+        <pin num="35" name="VCC" type="power_in"/>
+        <pin num="36" name="PE0/OC0A/SDA" type="BiDi"/>
+        <pin num="37" name="PE1/OC0B/XCK0/SCL" type="BiDi"/>
+        <pin num="38" name="PE2/OC0C/RXD0" type="BiDi"/>
+        <pin num="39" name="PE3/OC0D/TXD0" type="BiDi"/>
+        <pin num="40" name="PE4/OC1A" type="BiDi"/>
+        <pin num="41" name="PE5/OC1B" type="BiDi"/>
+        <pin num="42" name="TOSC2" type="BiDi"/>
+        <pin num="43" name="TOSC1" type="BiDi"/>
+        <pin num="44" name="GND" type="power_in"/>
+        <pin num="45" name="VCC" type="power_in"/>
+        <pin num="46" name="PF0/OC0A" type="BiDi"/>
+        <pin num="47" name="PF1/OC0B/XCK0" type="BiDi"/>
+        <pin num="48" name="PF2/OC0C/RXD0" type="BiDi"/>
+        <pin num="49" name="PF3/OC0D/TXD0" type="BiDi"/>
+        <pin num="50" name="PF4" type="BiDi"/>
+        <pin num="51" name="VBAT" type="input"/>
+        <pin num="52" name="GND" type="power_in"/>
+        <pin num="53" name="VCC" type="power_in"/>
+        <pin num="54" name="PF6" type="BiDi"/>
+        <pin num="55" name="PF7" type="BiDi"/>
+        <pin num="56" name="PDI_DATA" type="input"/>
+        <pin num="57" name="~RESET~/PDI_CLK" type="input"/>
+        <pin num="58" name="PR0/XTAL2" type="BiDi"/>
+        <pin num="59" name="PR1/XTAL1" type="BiDi"/>
+        <pin num="60" name="GND" type="power_in"/>
+        <pin num="61" name="AVCC" type="power_in"/>
+        <pin num="62" name="AREF/AC0/ADC8/ADC0/PA0" type="BiDi"/>
+        <pin num="63" name="AC1/ADC9/ADC1/PA1" type="BiDi"/>
+        <pin num="64" name="AC2/ADC10/ADC2/PA2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="DopplerXmega-rescue" part="AVR-PDI-6">
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">AVR-PDI-6</field>
+        <field name="Footprint">AVR-PUDI-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DopplerXmega-rescue" part="Battery_Cell">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DopplerXmega-rescue" part="CP_Small">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DopplerXmega-rescue" part="C_Small">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DopplerXmega-rescue" part="Conn_01x02">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DopplerXmega-rescue" part="Conn_01x20">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x20</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DopplerXmega-rescue" part="Conn_02x08_Odd_Even">
+      <footprints>
+        <fp>Connector*:*2x??x*mm*</fp>
+        <fp>Connector*:*2x???Pitch*</fp>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x08_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DopplerXmega-rescue" part="Crystal_GND23">
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DopplerXmega-rescue" part="Crystal_GND24">
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DopplerXmega-rescue" part="Ferrite_Bead_Small">
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">Ferrite_Bead_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DopplerXmega-rescue" part="LD1117S33TR_SOT223">
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LD1117S33TR_SOT223</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="passive"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="DopplerXmega-rescue" part="LED">
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DopplerXmega-rescue" part="PRTR5V0U2X">
+      <footprints>
+        <fp>SOT143B*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PRTR5V0U2X</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="IO1" type="passive"/>
+        <pin num="3" name="IO2" type="passive"/>
+        <pin num="4" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="DopplerXmega-rescue" part="R">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DopplerXmega-rescue" part="SW_Push">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DopplerXmega-rescue" part="TCXO">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TCXO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vad" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="OUT" type="input"/>
+        <pin num="4" name="Vdd" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="DopplerXmega-rescue" part="USB_B">
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="GND" type="power_out"/>
+        <pin num="5" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="DopplerXmega-rescue">
+      <uri>C:\Git\Marek\kicad\mpio_projekty\DopplerXmega/DopplerXmega-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/SW1">
+      <node ref="U2" pin="41"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="2" name="/SW2">
+      <node ref="U2" pin="39"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="3" name="/SW3">
+      <node ref="U2" pin="28"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="4" name="/SW4">
+      <node ref="U2" pin="40"/>
+      <node ref="SW4" pin="2"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="5" name="/DISP_BL">
+      <node ref="R13" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="U2" pin="38"/>
+    </net>
+    <net code="6" name="/PDI_DATA">
+      <node ref="PDI1" pin="1"/>
+      <node ref="U2" pin="56"/>
+    </net>
+    <net code="7" name="/PDI_CLK">
+      <node ref="U2" pin="57"/>
+      <node ref="PDI1" pin="5"/>
+    </net>
+    <net code="8" name="/DISP_SCL">
+      <node ref="U2" pin="27"/>
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="9" name="/DISP_SI">
+      <node ref="U2" pin="29"/>
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="10" name="Net-(C9-Pad2)">
+      <node ref="C9" pin="2"/>
+      <node ref="J3" pin="19"/>
+    </net>
+    <net code="11" name="Net-(C6-Pad1)">
+      <node ref="J3" pin="11"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="12" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2"/>
+      <node ref="J3" pin="12"/>
+    </net>
+    <net code="13" name="/PB5">
+      <node ref="J4" pin="6"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="14" name="/PB0">
+      <node ref="J4" pin="1"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="15" name="/PB1">
+      <node ref="U2" pin="7"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="16" name="/PB2">
+      <node ref="J4" pin="3"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="17" name="/PB3">
+      <node ref="J4" pin="4"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="18" name="/PB4">
+      <node ref="U2" pin="10"/>
+      <node ref="J4" pin="5"/>
+    </net>
+    <net code="19" name="/PB6">
+      <node ref="J4" pin="7"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="20" name="/PB7">
+      <node ref="J4" pin="8"/>
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="21" name="/PC0">
+      <node ref="U2" pin="16"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="22" name="/PC1">
+      <node ref="U2" pin="17"/>
+      <node ref="J5" pin="2"/>
+    </net>
+    <net code="23" name="/PC2">
+      <node ref="U2" pin="18"/>
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="24" name="/PC3">
+      <node ref="J5" pin="4"/>
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="25" name="/PC5">
+      <node ref="U2" pin="21"/>
+      <node ref="J5" pin="6"/>
+    </net>
+    <net code="26" name="Net-(C4-Pad2)">
+      <node ref="U2" pin="42"/>
+      <node ref="C4" pin="2"/>
+      <node ref="Y1" pin="4"/>
+    </net>
+    <net code="27" name="Net-(C5-Pad2)">
+      <node ref="U2" pin="43"/>
+      <node ref="Y1" pin="1"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="28" name="/DISP_A0">
+      <node ref="J3" pin="4"/>
+      <node ref="U2" pin="26"/>
+    </net>
+    <net code="29" name="Net-(BT1-Pad1)">
+      <node ref="U2" pin="51"/>
+      <node ref="BT1" pin="1"/>
+    </net>
+    <net code="30" name="/PF1">
+      <node ref="J6" pin="2"/>
+      <node ref="U2" pin="47"/>
+    </net>
+    <net code="31" name="Net-(J6-Pad6)">
+      <node ref="J6" pin="6"/>
+    </net>
+    <net code="32" name="GND">
+      <node ref="J1" pin="11"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="J1" pin="9"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J4" pin="13"/>
+      <node ref="U2" pin="44"/>
+      <node ref="J4" pin="11"/>
+      <node ref="U2" pin="14"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U2" pin="34"/>
+      <node ref="U2" pin="60"/>
+      <node ref="J1" pin="15"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="J1" pin="13"/>
+      <node ref="J2" pin="4"/>
+      <node ref="PDI1" pin="6"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U2" pin="52"/>
+      <node ref="U2" pin="24"/>
+      <node ref="U1" pin="1"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="J5" pin="13"/>
+      <node ref="J5" pin="11"/>
+      <node ref="J3" pin="8"/>
+      <node ref="J4" pin="9"/>
+      <node ref="C4" pin="1"/>
+      <node ref="J6" pin="9"/>
+      <node ref="J6" pin="15"/>
+      <node ref="J6" pin="13"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="J5" pin="9"/>
+      <node ref="J6" pin="11"/>
+      <node ref="D1" pin="1"/>
+      <node ref="J5" pin="15"/>
+      <node ref="J4" pin="15"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="33" name="/PF0">
+      <node ref="U2" pin="46"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="34" name="/PF2">
+      <node ref="U2" pin="48"/>
+      <node ref="J6" pin="3"/>
+    </net>
+    <net code="35" name="/PF3">
+      <node ref="J6" pin="4"/>
+      <node ref="U2" pin="49"/>
+    </net>
+    <net code="36" name="/PF4">
+      <node ref="J6" pin="5"/>
+      <node ref="U2" pin="50"/>
+    </net>
+    <net code="37" name="/PF6">
+      <node ref="J6" pin="7"/>
+      <node ref="U2" pin="54"/>
+    </net>
+    <net code="38" name="/PF7">
+      <node ref="J6" pin="8"/>
+      <node ref="U2" pin="55"/>
+    </net>
+    <net code="39" name="/US_1">
+      <node ref="U2" pin="36"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="40" name="/US_2">
+      <node ref="J7" pin="2"/>
+      <node ref="U2" pin="37"/>
+    </net>
+    <net code="41" name="/DISP_/CS1">
+      <node ref="J3" pin="2"/>
+      <node ref="U2" pin="31"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="42" name="+3V3">
+      <node ref="R9" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="J5" pin="14"/>
+      <node ref="J5" pin="12"/>
+      <node ref="J5" pin="10"/>
+      <node ref="R11" pin="1"/>
+      <node ref="J6" pin="10"/>
+      <node ref="R12" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="D6" pin="2"/>
+      <node ref="PDI1" pin="2"/>
+      <node ref="J1" pin="16"/>
+      <node ref="U2" pin="25"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U2" pin="53"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J1" pin="14"/>
+      <node ref="U2" pin="35"/>
+      <node ref="J1" pin="12"/>
+      <node ref="J4" pin="16"/>
+      <node ref="J1" pin="10"/>
+      <node ref="J4" pin="10"/>
+      <node ref="U2" pin="45"/>
+      <node ref="J4" pin="12"/>
+      <node ref="J4" pin="14"/>
+      <node ref="J5" pin="16"/>
+      <node ref="U2" pin="15"/>
+      <node ref="J6" pin="12"/>
+      <node ref="J6" pin="14"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="J6" pin="16"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="J3" pin="7"/>
+      <node ref="C12" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C14" pin="1"/>
+    </net>
+    <net code="43" name="/DISP_/RES">
+      <node ref="R3" pin="1"/>
+      <node ref="U2" pin="30"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="44" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="45" name="/D+">
+      <node ref="J2" pin="3"/>
+      <node ref="D4" pin="3"/>
+      <node ref="U2" pin="33"/>
+    </net>
+    <net code="46" name="+5V">
+      <node ref="J2" pin="1"/>
+      <node ref="D4" pin="4"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="47" name="Net-(J2-Pad5)">
+      <node ref="J2" pin="5"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="48" name="/D-">
+      <node ref="J2" pin="2"/>
+      <node ref="U2" pin="32"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="49" name="Net-(C7-Pad2)">
+      <node ref="Y2" pin="3"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U2" pin="58"/>
+    </net>
+    <net code="50" name="Net-(C8-Pad2)">
+      <node ref="Y2" pin="1"/>
+      <node ref="U2" pin="59"/>
+      <node ref="C8" pin="2"/>
+    </net>
+    <net code="51" name="Net-(C1-Pad1)">
+      <node ref="L1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U2" pin="61"/>
+    </net>
+    <net code="52" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="53" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="54" name="Net-(D5-Pad2)">
+      <node ref="R7" pin="2"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="55" name="/PC7">
+      <node ref="D2" pin="1"/>
+      <node ref="U2" pin="23"/>
+      <node ref="J5" pin="8"/>
+    </net>
+    <net code="56" name="/PC6">
+      <node ref="U2" pin="22"/>
+      <node ref="J5" pin="7"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="57" name="/PC4">
+      <node ref="U2" pin="20"/>
+      <node ref="J5" pin="5"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="58" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="59" name="/PA0">
+      <node ref="J1" pin="1"/>
+      <node ref="U2" pin="62"/>
+    </net>
+    <net code="60" name="/PA2">
+      <node ref="J1" pin="3"/>
+      <node ref="U2" pin="64"/>
+    </net>
+    <net code="61" name="/PA4">
+      <node ref="U2" pin="2"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="62" name="/PA6">
+      <node ref="U2" pin="4"/>
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="63" name="/PA1">
+      <node ref="U2" pin="63"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="64" name="/PA3">
+      <node ref="J1" pin="4"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="65" name="/PA5">
+      <node ref="U2" pin="3"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="66" name="/PA7">
+      <node ref="U2" pin="5"/>
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="67" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="68" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="69" name="Net-(Y2-Pad2)">
+      <node ref="Y2" pin="2"/>
+    </net>
+    <net code="70" name="Net-(Y2-Pad4)">
+      <node ref="Y2" pin="4"/>
+    </net>
+    <net code="71" name="Net-(J3-Pad17)">
+      <node ref="J3" pin="17"/>
+    </net>
+    <net code="72" name="Net-(J3-Pad9)">
+      <node ref="J3" pin="9"/>
+    </net>
+    <net code="73" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="74" name="Net-(J3-Pad10)">
+      <node ref="J3" pin="10"/>
+    </net>
+    <net code="75" name="Net-(J3-Pad13)">
+      <node ref="J3" pin="13"/>
+    </net>
+    <net code="76" name="Net-(J3-Pad14)">
+      <node ref="J3" pin="14"/>
+    </net>
+    <net code="77" name="Net-(J3-Pad15)">
+      <node ref="J3" pin="15"/>
+    </net>
+    <net code="78" name="Net-(J3-Pad16)">
+      <node ref="J3" pin="16"/>
+    </net>
+    <net code="79" name="Net-(J3-Pad20)">
+      <node ref="J3" pin="20"/>
+    </net>
+    <net code="80" name="Net-(J3-Pad18)">
+      <node ref="J3" pin="18"/>
+    </net>
+    <net code="81" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="82" name="Net-(Y1-Pad3)">
+      <node ref="Y1" pin="3"/>
+    </net>
+    <net code="83" name="Net-(Y1-Pad2)">
+      <node ref="Y1" pin="2"/>
+    </net>
+    <net code="84" name="Net-(PDI1-Pad3)">
+      <node ref="PDI1" pin="3"/>
+    </net>
+    <net code="85" name="Net-(PDI1-Pad4)">
+      <node ref="PDI1" pin="4"/>
+    </net>
+  </nets>
+</export>
