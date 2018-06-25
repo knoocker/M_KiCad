@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name resetUSB-rescue)(type Legacy)(uri C:/Git/M_KiCad/mpio_projekty/resetUSBv4.94radWew2/resetUSB-rescue.lib)(options "")(descr ""))
+)

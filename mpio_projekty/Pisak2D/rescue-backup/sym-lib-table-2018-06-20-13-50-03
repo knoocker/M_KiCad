@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Pisak2D-rescue)(type Legacy)(uri ${KIPRJMOD}/Pisak2D-rescue.lib)(options "")(descr ""))
+)
