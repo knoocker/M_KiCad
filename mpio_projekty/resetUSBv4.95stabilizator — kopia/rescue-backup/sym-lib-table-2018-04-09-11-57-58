@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name xilinx)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/xilinx.lib)(options "")(descr ""))
-)
