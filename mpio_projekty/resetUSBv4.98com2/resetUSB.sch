@@ -379,9 +379,9 @@ Wire Wire Line
 Wire Wire Line
 	2250 3500 2300 3500
 Text Label 2300 3500 0    60   ~ 0
-USB_M
+USB_DM
 Text Label 2300 3600 0    60   ~ 0
-USB_P
+USB_DP
 $Comp
 L mpio_lib:AO4616 U6
 U 1 1 5ACEBD2F
@@ -1069,9 +1069,9 @@ SWCLK
 Text Label 10700 2500 0    60   ~ 0
 SWDIO
 Text Label 10700 2400 0    60   ~ 0
-USB_P
+USB_DP
 Text Label 10700 2300 0    60   ~ 0
-USB_M
+USB_DM
 Wire Wire Line
 	10700 2300 10650 2300
 Wire Wire Line

@@ -1,0 +1,194 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L mpio_lib:switch_no_nc_3pin U1
+U 1 1 5B51FB08
+P 5500 4050
+F 0 "U1" H 5500 4437 60  0000 C CNN
+F 1 "switch_no_nc_3pin" H 5500 4331 60  0000 C CNN
+F 2 "mpio:D2FS-FL-N-T" H 5500 4050 60  0001 C CNN
+F 3 "" H 5500 4050 60  0001 C CNN
+	1    5500 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L conn:Audio-Jack-4 J1
+U 1 1 5B51FC35
+P 4600 4450
+F 0 "J1" H 4576 4675 50  0000 C CNN
+F 1 "Audio-Jack-4" H 4576 4584 50  0000 C CNN
+F 2 "mpio:1503_13_VP3" H 4850 4550 50  0001 C CNN
+F 3 "~" H 4850 4550 50  0001 C CNN
+	1    4600 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:LED D1
+U 1 1 5B51FDA4
+P 5250 5150
+F 0 "D1" H 5241 5366 50  0000 C CNN
+F 1 "GREEN" H 5241 5275 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 5250 5150 50  0001 C CNN
+F 3 "" H 5250 5150 50  0001 C CNN
+	1    5250 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R1
+U 1 1 5B51FDF9
+P 5600 5150
+F 0 "R1" V 5500 5150 50  0000 C CNN
+F 1 "110" V 5600 5150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5530 5150 50  0001 C CNN
+F 3 "" H 5600 5150 50  0001 C CNN
+	1    5600 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R2
+U 1 1 5B51FEC9
+P 5950 5150
+F 0 "R2" V 5850 5150 50  0000 C CNN
+F 1 "110" V 5950 5150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5880 5150 50  0001 C CNN
+F 3 "" H 5950 5150 50  0001 C CNN
+	1    5950 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 5150 5450 5150
+Wire Wire Line
+	5750 5150 5800 5150
+$Comp
+L power:GND #PWR0101
+U 1 1 5B520515
+P 5550 4700
+F 0 "#PWR0101" H 5550 4450 50  0001 C CNN
+F 1 "GND" H 5555 4527 50  0000 C CNN
+F 2 "" H 5550 4700 50  0001 C CNN
+F 3 "" H 5550 4700 50  0001 C CNN
+	1    5550 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 4650 5550 4650
+Wire Wire Line
+	5550 4650 5550 4700
+Wire Wire Line
+	5600 4450 5550 4450
+Text Label 5550 4450 2    50   ~ 0
+SIG
+Text Label 4850 4550 0    50   ~ 0
+SIG
+$Comp
+L power:GND #PWR0102
+U 1 1 5B5206C0
+P 4400 4900
+F 0 "#PWR0102" H 4400 4650 50  0001 C CNN
+F 1 "GND" H 4405 4727 50  0000 C CNN
+F 2 "" H 4400 4900 50  0001 C CNN
+F 3 "" H 4400 4900 50  0001 C CNN
+	1    4400 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 4850 4400 4900
+Wire Wire Line
+	4850 4650 4800 4650
+Wire Wire Line
+	6100 5150 6150 5150
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 5B520C48
+P 4900 4350
+F 0 "#PWR0103" H 4900 4200 50  0001 C CNN
+F 1 "+3.3V" H 4915 4523 50  0000 C CNN
+F 2 "" H 4900 4350 50  0001 C CNN
+F 3 "" H 4900 4350 50  0001 C CNN
+	1    4900 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4450 4900 4450
+Wire Wire Line
+	4900 4450 4900 4350
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 5B520F57
+P 6150 5100
+F 0 "#PWR0104" H 6150 4950 50  0001 C CNN
+F 1 "+3.3V" H 6165 5273 50  0000 C CNN
+F 2 "" H 6150 5100 50  0001 C CNN
+F 3 "" H 6150 5100 50  0001 C CNN
+	1    6150 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 5100 6150 5150
+Text Label 4850 4650 0    50   ~ 0
+SWITCH
+Wire Wire Line
+	4800 4550 4850 4550
+$Comp
+L power:GND #PWR0105
+U 1 1 5B5214B9
+P 5250 4100
+F 0 "#PWR0105" H 5250 3850 50  0001 C CNN
+F 1 "GND" H 5255 3927 50  0000 C CNN
+F 2 "" H 5250 4100 50  0001 C CNN
+F 3 "" H 5250 4100 50  0001 C CNN
+	1    5250 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 4050 5250 4050
+Wire Wire Line
+	5250 4050 5250 4100
+Text Label 5750 3950 0    50   ~ 0
+SWITCH
+Wire Wire Line
+	5750 3950 5700 3950
+Text Label 5750 4150 0    50   ~ 0
+LED
+Text Label 5050 5150 2    50   ~ 0
+LED
+Wire Wire Line
+	5050 5150 5100 5150
+Wire Wire Line
+	5750 4150 5700 4150
+$Comp
+L conn:Conn_01x01 J2
+U 1 1 5B522CB8
+P 5800 4450
+F 0 "J2" H 5880 4492 50  0000 L CNN
+F 1 "Conn_01x01" H 5880 4401 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 5800 4450 50  0001 C CNN
+F 3 "~" H 5800 4450 50  0001 C CNN
+	1    5800 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L conn:Conn_01x01 J3
+U 1 1 5B522CE8
+P 5800 4650
+F 0 "J3" H 5880 4692 50  0000 L CNN
+F 1 "Conn_01x01" H 5880 4601 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 5800 4650 50  0001 C CNN
+F 3 "~" H 5800 4650 50  0001 C CNN
+	1    5800 4650
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
